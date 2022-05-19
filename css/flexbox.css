@@ -1,0 +1,611 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,800&family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:ital,wght@1,700&display=swap');
+*{ margin: 0% }
+body{
+
+height: 100%;
+background-color: #FDA7DF;
+
+}
+header{
+	width: 100%;
+	height: 50%;
+	background-color: black;
+}
+.Miley{
+	font-size: 45px;
+	
+font-family: 'Mulish', sans-serif;
+	margin: 0% ;
+	padding-left: 34%;
+color: #FDA7DF;
+}
+.cantante{
+	font-size: 25px;
+padding-top: 1%;
+padding-bottom: 3%;
+font-family: 'Mulish', sans-serif;
+	padding-left: 34.5%;
+color: #FDA7DF;
+}
+.flexbox{
+	display: flex;
+	flex-direction: row;
+
+justify-content: space-between;
+
+
+}
+.video {
+	height: 50%;
+	width: 55%;
+
+
+}
+
+.collage{
+	width: 50%;
+	height: 20%
+}
+.flex1{
+
+background-color: #1289A7;
+padding :5%;
+order: 3
+height:100px;
+	
+}
+.disney{
+
+width: 30px;
+height: 40px;
+
+}
+
+.contenedor{
+	font-size: 25px;
+	margin: 00% auto;
+
+	padding: 2%;
+}
+.textos{
+	display: flex;
+	flex-direction: column ;
+	align-items: baseline;
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+
+padding-left: 0%;
+
+}
+.Sobre{
+	font-family: 'Heebo', sans-serif;
+}
+.trabajos{
+	display: flex;
+	flex-direction: row; 
+	align-items: baseline;
+	
+flex-wrap: wrap;
+
+padding: 0%;
+padding-bottom: 2%;
+
+
+}
+.fotos{
+	display: flex;
+	flex-direction: row; 
+
+	justify-content: space-between;
+flex-wrap: wrap;
+	padding-top: 3%;
+}
+.texto2{
+width: 100%;
+font-size: 20px;
+align-self: flex-end;
+padding-left: 4%;
+padding-top: 0.5%;
+padding-bottom: 1%;
+font-family: 'Poppins', sans-serif;}
+.iconos{
+
+	width: 25px;
+height: 25px;
+}
+
+.texto{
+	display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+padding: 0%;}
+.Sobre{
+
+	font-family: 'Heebo', sans-serif;
+}
+.fortalezas{
+	padding :1%;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+	margin-bottom: 15px;
+}
+.imagenes{
+
+	padding-left: 4%;}
+.cuadrados{
+display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+flex-wrap: wrap;
+
+
+}
+.texto1{
+	
+	width: 65%;
+
+	padding :1%;
+font-family: 'Poppins', sans-serif;;
+	font-size: 20px;
+}
+.contacto{
+font-size: 15px;
+	padding :1%;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+.contenedor1{
+	display: flex;
+	flex-direction: column; 
+
+	justify-content: space-between;
+flex-wrap: wrap;
+	padding-top: 1%;
+}
+.fortalezas{
+	
+font-family: 'Heebo', sans-serif;
+font-size: 15px;
+
+
+}
+.mis{
+margin-left: 2%;
+}
+.Sobre1{
+
+	font-family: 'Heebo', sans-serif;
+	padding-left: 0.6%;
+}
+
+@media (max-width: 600px){
+body{
+
+height: 60%;
+background-color: #FDA7DF;
+
+}
+.sobremi{
+margin-left: -2%;
+}
+.Miley{
+	font-size: 30px;
+	
+font-family: 'Mulish', sans-serif;
+	padding-top: 1% ;
+	padding-left: 25%;
+color: #FDA7DF;
+}
+.cantante{
+	font-size: 20px;
+padding-top: 1%;
+padding-bottom: 3%;
+font-family: 'Mulish', sans-serif;
+	padding-left: 23%;
+color: #FDA7DF;
+}
+.texto1{
+	
+	width: 60%;
+align-self:center;
+margin-left: 4%;
+	padding :1%;
+font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+}
+.imagenes{
+
+	padding-left: 15%;}
+.textos{
+	display: flex;
+	flex-direction: column ;
+	align-items: center;
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+padding-bottom: 2%;
+
+padding-top: 3%;
+
+}
+
+.video{
+	padding-left: 15%;
+	height: 42%
+}
+.trabajos{
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	
+flex-wrap: wrap;
+
+padding: 0%;
+padding-bottom: 2%;
+
+
+}
+.disney{
+padding-left: 2%;
+width: 30px;
+height: 40px;
+
+}
+.fotos{
+	display: flex;
+	flex-direction: column; 
+
+	justify-content: space-between;
+flex-wrap: wrap;
+	padding-top: 3%;
+}
+.texto2{
+width:65%;
+font-size: 15px;
+align-self: center;
+padding-top: 0.5%;
+padding-bottom: 3%;
+margin-left: 10%;
+font-family: 'Poppins', sans-serif;}
+}
+}
+
+.texto{
+display: flex;
+	flex-direction: column ;
+	align-items: center;
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+padding-bottom: 2%;
+margin-left: 30%;
+padding-top: 3%;
+max-height: 100vh;
+}
+
+
+
+.fortalezas{
+	w
+}
+
+.collage{ 
+width: 100%;
+height: 50%; }
+
+
+.contenedor1{
+	display: flex;
+	flex-direction: column; 
+margin-left: 80%;
+
+	justify-content: space-between;
+flex-wrap: wrap;
+	padding-top: 10%;
+}
+
+@media (min-width: 601px) and (max-width: 990px){
+body{
+
+height: 60%;
+background-color: #FDA7DF;
+
+}
+.sobremi{
+margin-left: 8%;
+}
+.Miley{
+	font-size: 30px;
+	
+font-family: 'Mulish', sans-serif;
+	padding-top: 1% ;
+	padding-left: 28%;
+color: #FDA7DF;
+}
+.cantante{
+	font-size: 20px;
+padding-top: 1%;
+padding-bottom: 3%;
+font-family: 'Mulish', sans-serif;
+	padding-left: 25%;
+color: #FDA7DF;
+}
+.texto1{
+	
+	width: 80%;
+
+margin-left: 7%;
+	padding :1%;
+font-family: 'Poppins', sans-serif;
+
+	font-size: 15px;
+}
+.imagenes{
+
+	padding-left: 15%;}
+.textos{
+	display: flex;
+	flex-direction: column ;
+	align-items: baseline;
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+padding-bottom: 2%;
+
+padding-top: 3%;
+
+}
+.trabajos{
+	display: flex;
+	flex-direction: column; 
+	align-items: baseline;
+	margin-left: 8%;
+flex-wrap: wrap;
+
+padding: 0%;
+padding-bottom: 2%;
+
+
+}
+.disney{
+padding-left: 2%;
+width: 30px;
+height: 40px;
+
+}
+.fotos{
+	display: flex;
+	flex-direction: column; 
+
+	justify-content: space-between;
+flex-wrap: wrap;
+	padding-top: 3%;
+}
+.texto2{
+width:65%;
+font-size: 15px;
+align-self: center;
+padding-top: 0.5%;
+padding-bottom: 3%;
+margin-left: 10%;
+font-family: 'Poppins', sans-serif;}
+}
+
+.texto{
+	display: flex;
+	flex-direction: column; 
+align-items: baseline;
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+margin-left: 7%;
+}
+
+.video{ 
+margin-left: 8%; }
+
+
+.collage{ 
+width: 100%;
+height: 50%; }
+
+
+.fortalezas{
+	width: 80%;
+	padding :1%;
+font-family: 'Heebo', sans-serif;
+font-size: 15px;
+margin-left: -15%;
+align-self: center;
+	margin-bottom: 15px;
+}
+
+
+.contenedor1{
+	display: flex;
+	flex-direction: column; 
+font-size: 20px;
+	justify-content: space-between;
+flex-wrap: wrap;
+	padding-top: 5%;
+	margin-left: 8%;
+}
+.contacto{
+font-size: 20px;
+	padding :1%;
+
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+@media (min-width: 991px) and (max-width: 1220px){
+
+
+body{
+
+background-color:#FDA7DF;
+
+}
+.Miley{
+	font-size: 38px;
+	 
+font-family: 'Mulish', sans-serif;
+	padding-top: 1% ;
+	padding-left: 35%;
+	
+color:#FDA7DF;
+}
+.cantante{
+	font-size: 28px;
+padding-top: 1%;
+padding-bottom: 3%;
+font-family: 'Mulish', sans-serif;
+	padding-left: 32%;
+color: #FDA7DF;
+}
+
+.texto1{
+	
+	width: 80%;
+align-self: flex-start;
+	padding :1%;
+font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+.textos{
+	display: flex;
+	flex-direction: column ;
+
+	justify-content: space-between;
+flex-wrap: wrap;
+max-height: 100vh;
+padding-bottom: 2%;
+
+padding-top: 2%;
+
+}
+.trabajos{
+	display: flex;
+	flex-direction: column; 
+	
+	
+flex-wrap:nowrap; 
+
+padding: 0%;
+padding-bottom: 2%;
+
+
+}
+.fotos{
+	display: flex;
+	flex-direction: row; 
+
+	justify-content: space-between;
+flex-wrap: nowrap;
+	padding-top: 2%;
+}
+.texto2{
+
+width: 90%;
+font-size: 15px;
+align-self: flex-end;
+padding-top: 0.5%;
+padding-bottom: 3%;
+margin-left: 2%;
+font-family: 'Poppins', sans-serif;}
+
+.caja1{
+display: flex;
+	flex-direction: column; 
+
+	justify-content: space-between;
+}
+
+.texto{
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+flex-wrap: nowrap;
+max-height: 100vh;
+
+}
+
+.fortalezas{
+	width: 70%;
+	padding :1%;
+font-family: 'Heebo', sans-serif;
+font-size: 15px;
+align-self: flex-start;
+margin-left: -8%;
+	margin-bottom: 15px;
+}
+
+.collage{ 
+width: 100%;
+height: 10%;
+ }
+.mis{
+	margin-left: -8%;
+}
+
+.contenedor{
+	font-size: 25px;
+	margin: 00% auto;
+margin-left: 12%;
+	padding: 2%;
+}
+.video{
+
+margin-left: 2%;
+padding-top: 3%;
+
+
+}
+.videoo{
+width: 60%;
+}
+
+.contenedor1{
+	display: flex;
+	flex-direction: row; 
+	
+flex-wrap: wrap;
+	padding-top: 3%;
+	margin-left: auto;
+	font-size: 25px;
+}
+.contacto{
+	
+font-size: 20px;
+	padding :1%;
+font-family: 'Poppins', sans-serif;
+width: 30%;
+
+}
+.imagenes{
+
+	padding-left: 20%;}
+
+
+footer{
+	margin-left: 13%;
+}
+
+}
+
+
+
+
+
+
+
+}
